@@ -1,6 +1,6 @@
 Firstly, run the code "PartBSimulation.py". 
-With the extracted data from the previous code, run the code "Final3DPlotter.m" in order to get the density of the different bit lists lengths. 
-The final3DPlotter code is used to represent the density matrix values as a 3D image. use the density matrix values
+With the extracted data from the previous code which are the density matrix values for each bit list, run the code "Final3DPlotter.m"
+This code is used to represent the density matrix values as a 3D image. use the density matrix values
 calculated from the previous part and place them in a csv file, as shown in the Guide.png picture.
 The file should be named: "Simulation_angle_bar_data_base_HHVV_bit_num_10"
 with the bit num (here it is 10) changed if needed and the base "HHVV" changed if needed.
