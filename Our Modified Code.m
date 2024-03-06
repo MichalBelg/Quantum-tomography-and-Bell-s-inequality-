@@ -1,4 +1,5 @@
-v= VideoReader('hamishim.mp4');
+%Insert Video Name Below
+v= VideoReader('InsertVideoName.mp4');
 numFrames = v.NumFrames;  % Get the total number of frames in the video
 D2 = zeros(1, numFrames); % Initialize the array to store results
 %numFrames = 1000
