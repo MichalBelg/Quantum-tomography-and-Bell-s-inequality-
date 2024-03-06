@@ -1,4 +1,9 @@
 Firstly, We use "Generate Random bits" to generate three bit lists. Conduct the experiment as explained in the article. 
-The resultant 3 videos are the input for the code "Our Modified Code". The output is a graph of intensity values summed for the entire frame for each frame in the video.
-Firstly use the commented lines to figure out the coordinates of the cameras on the screen and change the commented
+The resultant 3 videos are the input for the file "Our Modified Code". The output is a graph of intensity values summed for the entire frame for each frame in the video.
+Firstly use the first two commented lines to figure out the coordinates of the cameras on the screen and change the commented
 lines inside the loop according to your definition of Alice and Bob, Horizontal and Vertical.
+For each combination of Alice, Bob, and H or V, uncomment the selected line and run the code.
+The result will be a graph, which can be saved. The values of the graph will also be stored in the variable D2.
+
+The final3DPlotter code is used to represent the density matrix values as a 3D image. use the density matrix values
+calculated from the previous part and place them in a csv file, as shown in the Guide.jpg picture.
