@@ -11,6 +11,9 @@ D2 = zeros(1, numFrames); % Initialize the array to store results
 for i = 1:numFrames
     disp("How many frames left:" + (numFrames - i));
     frame = read(v, i);
+    %The structure is:
+    %frame(y_bottom:y_top,x_left:x_right,1)
+    %change the commented lines below accordingly.
     %%%%%Alice H
     %D2(i)=sum(sum(frame(400:651,458:790,1)));
     %%%%%
