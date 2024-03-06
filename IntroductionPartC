@@ -1,1 +1,1 @@
-Use code "FindS.py" in order to find Bell's parameter. 
+Use code "FindS.py" in order to find Bell's parameter and its error. The input to the code are 16 videos for the 16 angle combinations - for example - "45+22.mp4", "45-22.mp4","-45+112.mp4" and "90+67.mp4".
