@@ -6,4 +6,6 @@ For each combination of Alice, Bob, and H or V, uncomment the selected line and 
 The result will be a graph, which can be saved. The values of the graph will also be stored in the variable D2.
 
 The final3DPlotter code is used to represent the density matrix values as a 3D image. use the density matrix values
-calculated from the previous part and place them in a csv file, as shown in the Guide.jpg picture.
+calculated from the previous part and place them in a csv file, as shown in the Guide.png picture.
+The file should be named: "Simulation_angle_bar_data_base_HHVV_bit_num_10"
+with the bit num (here it is 10) changed if needed and the base "HHVV" changed if needed.
