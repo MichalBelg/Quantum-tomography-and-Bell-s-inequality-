@@ -2,6 +2,11 @@ v= VideoReader('hamishim.mp4');
 numFrames = v.NumFrames;  % Get the total number of frames in the video
 D2 = zeros(1, numFrames); % Initialize the array to store results
 %numFrames = 1000
+%Before running the loop, run these two commented lines below to locate the coordinates for the cameras
+
+%pcolor(frame(:,:,1))
+%shading flat
+
 for i = 1:numFrames
     disp("How many frames left:" + (numFrames - i));
     frame = read(v, i);
@@ -20,23 +25,6 @@ for i = 1:numFrames
 end
 
 
-
-%Garry's Code down here:
-%%for i=1:1:30
-%%frame = read(v,i);
-%pcolor(frame(400:633,910:1220,1))
-%%shading flat
-%plot(frame(200,:,1))
-%[M,I] = max(frame(200,:,1));
-%x(i)=I;
-%shading flat
-%pause(0.05)
-%colorbar
-%%end
-
-
-%pcolor(frame(:,:,1))
-%shading flat
 
 figure;
 plot(D2);
