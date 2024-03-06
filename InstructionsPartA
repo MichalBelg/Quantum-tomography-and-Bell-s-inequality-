@@ -1,1 +1,4 @@
-Firstly, We use "Generate Random bits" to generate a list. Conduct the experiment as explained in the article. With the resultant 3 videos use "Our Modified Code"
+Firstly, We use "Generate Random bits" to generate a list. Conduct the experiment as explained in the article. 
+The resultant 3 videos are the input for the code "Our Modified Code". The output is a graph of intensity values summed for the entire frame for each frame in the video.
+Firstly use the commented lines to figure out the coordinates of the cameras on the screen and change the commented
+lines inside the loop according to your definition of Alice and Bob, Horizontal and Vertical.
