@@ -1,27 +1,20 @@
 clear all
 %cd C:\Users\User\PycharmProjects\lab_c\quantum_cryptography\simulations\tomography\HVVH
-filename='Simulation_angle_bar_data_base_HVVH_bit_num_50';
+filename='Simulation_angle_bar_data_base_HHVV_bit_num_10';
 base=filename(32:35);
 %base = "HHVV";
 bit_num=filename(45:46);
 %bit_num = "500";
 %title_figure=strcat('Simulation base',{' '},base,{' '},bit_num,' bits');
 title_figure=strcat(base,{' '},bit_num,' bits');
-%bit_num=10;
-%base='HHVV';
+
 %title_figure=strcat('Measements 2',{' '},num2str(bit_num),{' '},'bits HHVV')
-%data=readmatrix(strcat(filename,'.csv'));
-%data = [0.488 0 0 0.512; 0 0 0 0; 0 0 0 0; 0.488 0 0 0.512];
-%Phi_m=[0 1 -1 0]'
-%rho=Phi_m.*Phi_m'
-%data=abs(rho);
-%Li=0:3;
+data=readmatrix(strcat(filename,'.csv'));
 Li=["HH","HV","VH","VV"];
-%Ls=0:3;
 Ls=["HH","HV","VH","VV"];
-%data=reshape([],[4,4])
+
 fig=figure;
-%G2_plot=bar3(data(1:4,1:4)/sum(sum(data(1:4,1:4))));
+
 G2_plot=bar3(data(1:4,1:4));
 for k = 1:length(G2_plot)
     zdata = G2_plot(k).ZData;
